@@ -1,0 +1,7 @@
+As written in the file, the ATM uses an RSA algorithm with exponent 3.
+Meaning we just need to find the cubic root of it.
+Because the credit card number is rather short, we can do it quickly.
+It calculates the cube root of the encrypted number and checks a small
+range of nearby numbers to find the one that after encryption matches the input. 
+This helps us not to iterate over all the possible billion numbers of the card.
+If it finds the original number, it returns it. otherwise, it returns -1.

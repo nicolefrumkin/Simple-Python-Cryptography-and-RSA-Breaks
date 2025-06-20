@@ -1,0 +1,4 @@
+Instead of testing every possible full key, which can be a lot of options (2^(8*key_length)) it guesses each byte of the key separately.
+This way we only check (2^8)*key_length options.
+It finds the best key byte for each time based on scoring the decrypted chunks and adds it to a full key.
+Then it uses the full key to decrypt the entire message.

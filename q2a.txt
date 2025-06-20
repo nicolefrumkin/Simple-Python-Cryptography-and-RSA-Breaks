@@ -1,0 +1,4 @@
+This function tries to find the original PIN number that was encrypted using the ATM’s encryption method. 
+It does this by trying every possible 4-digit PIN (from 0000 to 9999), 
+encrypting each one using the ATM ecrypt method, and checking if it matches the given encrypted value.
+If it finds a match, it returns the original PIN. If not, it returns -1.

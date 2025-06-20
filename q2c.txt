@@ -1,0 +1,5 @@
+Since the ATM uses a simple RSA verification with an exponent = 3,
+so we look for signature^3 = 1 mod n
+this occures for the signature = 1.
+We also define the status as the status value written in the q2-atm.py file.
+The function returns a ServerResponse object with a status of approval and a signature of 1 that the ATM will accept as valid.
