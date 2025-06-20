@@ -1,4 +1,4 @@
-# ex-crypto: Simple Python Cryptography and RSA Breaks
+Simple Python Cryptography and RSA Breaks
 
 This repository contains solutions for a cryptography assignment focused on implementing and breaking simple encryption methods in Python. It covers repeated-key XOR ciphers and simplified attacks on RSA.
 
